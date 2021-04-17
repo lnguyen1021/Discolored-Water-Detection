@@ -1,8 +1,11 @@
 # Navigation
 The scripts for each model can be found in the folders corresponding to the data product either atmosphere or surface reflectance bands. 
+
 Scripts are named with the following nominclature: dataProduct_trainingOrTestingScript_modelName
 
-### Modeling
+<hr>
+
+## Modeling
 GEE has various Machine Learning algorithms that can be directly called from GEE.  [The methods anddocumentation for differnent methods can be found here.](https://developers.google.com/earth-engine/guides/classification)
 
 For this project several models were created utilizing two different data products (top of atmosphere reflectance bands and surface reflectance bands).
