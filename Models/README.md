@@ -3,6 +3,9 @@ The scripts for each model can be found in the folders corresponding to the data
 
 Scripts are named with the following nominclature: dataProduct_trainingOrTestingScript_modelName
 
+In order to run the scripts, navigate to [GEE](https://code.earthengine.google.com/#), copy and paste scripts into the code editor. A box will pop up saying: `"__aFeatureName__" can be converted to an import record.` Be sure to click the 'convert' button. This will import all geometry features as import code and can help reduce the length of the script. 
+
+
 <hr>
 
 ## Modeling
@@ -15,7 +18,8 @@ For this project several models were created utilizing two different data produc
 4. Naive Bayes <!--the independent feature model, that is, the naïve Bayes probability model. The naïve Bayes classifier combines this model with a decision rule. The common rule is to pick the hypothesis that is most probable; this is known as the maximum a posteriori or MAP decision rule. -->
 5. Support Vector Machines <!-- tries to seperate each class along a plane and maximizing the distance between each class. -->
 
-Additionally, a few feeatures were engineered from band calculations. Each of the model listed above was created twice. One a base model with no additional features and a second model that included the additional features listed below. <!--https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/se2waq/script.js-->
+Additionally, a few feeatures were engineered from band calculations on 'B3'. 
+Each of the model listed above was created twice. One a base model with no additional features and a second model that included the additional features listed below. <!--https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/se2waq/script.js-->
 1. Chloraphyll a concentrations
 2. Density of cyanobacteria
 3. Turbidity
