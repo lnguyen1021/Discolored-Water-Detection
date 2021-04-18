@@ -1,6 +1,10 @@
+# Navigation
+The folders in this directory hold the classification images of each of the models for the specified data product.
+Each data product has a Train, Validation, and Testing folder where the classified images are stored. Model results are listed below
+
+> Note: Due to computational limits of GEE accuracy results are not objective. Each pixel within the image was not used to compute the accuracy. Regions within the image were selectd to be used in the calculation of the accuracy score. 
 
 ## Results
-
 | Validation Accuracy | | |
 |----|-----|----|
 | Model |	Atmosphere Validation Accuracy | Surface Reflectance Validation Accuracy |
