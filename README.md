@@ -1,6 +1,5 @@
 # Submarine Volcanic Eruption Detection using Google Earth Engine
-## Vanderbilt University Spring 2021 Capstone 599
-Linh Nguyen
+## Vanderbilt University Spring 2021 Capstone 599 Linh Nguyen
 
 <hr>
 
