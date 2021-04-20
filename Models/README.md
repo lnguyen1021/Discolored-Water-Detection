@@ -3,13 +3,13 @@ The scripts for each model can be found in the folders corresponding to the data
 
 Scripts are named with the following nominclature: dataProduct_trainingOrTestingScript_modelName
 
-In order to run the scripts, navigate to [GEE](https://code.earthengine.google.com/#), copy and paste scripts into the code editor. A box will pop up saying: `"__aFeatureName__" can be converted to an import record.` Be sure to click the 'convert' button. This will import all geometry features as import code and can help reduce the length of the script. 
-
-
 <hr>
 
 ## Modeling
-GEE has various Machine Learning algorithms that can be directly called from GEE.  [The methods anddocumentation for differnent methods can be found here.](https://developers.google.com/earth-engine/guides/classification)
+
+> In order to run the scripts, navigate to [GEE](https://code.earthengine.google.com/#), copy and paste scripts into the code editor. A box will pop up saying: `"__aFeatureName__" can be converted to an import record.` Be sure to click the 'convert' button. This will import all geometry features as import code and can help reduce the length of the script. 
+
+GEE has various Machine Learning algorithms that can be directly called from GEE.  [The methods and documentation for different methods can be found here.](https://developers.google.com/earth-engine/guides/classification)
 
 For this project several models were created utilizing two different data products (top of atmosphere reflectance bands and surface reflectance bands).
 1. Classification and Regression Trees (CART) <!--data is split into different feature groups and then subset based on trying to create a homogenous values along the dependent variable (decision trees) -->
